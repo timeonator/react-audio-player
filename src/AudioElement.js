@@ -14,10 +14,7 @@ export default class AudioElement extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.playAudio}>
-        <span>Play Audio</span>
-        </button>
-        <audio className="audio-element">
+        <audio controls className="audio-element">
           <source src="https://assets.coderrocketfuel.com/pomodoro-times-up.mp3"></source>
         </audio>
       </div>
